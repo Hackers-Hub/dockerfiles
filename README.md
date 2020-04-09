@@ -3,7 +3,10 @@ Docker build files
 
 ## Instructions
 Inside each of folder there is a build file and a docker compose yml file.
-You can either download both and just do a docker-compose up -d and it will automatically build the customized image and deploy the container.
+Download both files and either just run a compose up command, and it will automatically build the customized image and deploy the container.
+```
+docker-compose up -d
+```
 
 Alternatively: You can build the file yourself and run it with docker container run command simply as.
 ```
